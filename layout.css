@@ -1,0 +1,466 @@
+
+      html, body {
+        height: 100%;
+      }
+         a {
+          color: #fff;
+         }
+         li:hover {
+          background: #1C1C1C;
+         }
+
+      body {
+        color: black; /* Цвет текста */
+        background: #c7b39b url(images/fon5.jpg); /* Цвет фона и путь к файлу */
+        background: url(images/fon1111.jpg);
+        background: rgba(0.10);
+
+        font-family: 'Pangolin', cursive;
+
+      }
+
+      h1, h2, h3, p,
+      section {
+        width: 700px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        padding: 2px; /* Поля вокруг текста */
+
+        color:white; /* Цвет текста */
+        background:#9932CC; /* Цвет фона под заголовком */
+
+        font-size: 50px;
+        font-weight: 900;
+        /* text-align: center; */
+        /* margin-top: 100px; */
+      }
+
+      h2 {
+        position: relative;
+
+        margin-top: 50px;
+        padding: 2px; /* Поля вокруг текста */
+
+        color: white; /* Цвет текста */
+        background: #9932CC; /* Цвет фона под заголовком */
+
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+
+      h3 {
+        margin-top: 50px;
+        padding: 2px; /* Поля вокруг текста */
+
+        color:#F08080; /* Цвет текста */
+        background:#9932CC; /* Цвет фона под заголовком */
+
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+
+      p {
+        margin-top: 30px;
+        padding: 2px; /* Поля вокруг текста */
+
+        color: white; /* Цвет текста */
+        background:#483D8B; /* Цвет фона под заголовком */
+
+        font-size: 30px;
+        line-height: 1.5;
+      }
+      p + p {
+        margin-top: 16px;
+      }
+
+      header {
+        display: flex;
+        flex-direction: column;
+
+        height: 100%;
+
+        background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%), url(images/03.jpg);
+        background-size: cover;
+
+        justify-content: center;
+        align-items: center;
+      }
+
+      header h1,
+      header p {
+        text-align: center;
+
+        color:white;
+      }
+
+      h2.starbucks {
+        margin-top: 200px;
+      }
+
+      div.starbucks {
+        position: absolute;
+        top: -50px;
+        left: -10px;
+
+        width: 740px;
+        height: 100px;
+
+        transform: rotate(180deg);
+
+        background-image: url(images/3.gif);
+        background-position: center;
+        background-size: contain;
+      }
+
+      div.tape1 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/6.png);
+        background-size: cover;
+      }
+
+      div.tape2 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/7.png);
+        background-size: cover;
+      }
+
+      div.tape3 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/9.png);
+        background-size: cover;
+      }
+
+      div.tape4 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/8.png);
+        background-size: cover;
+      }
+
+      div.tape5 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/7.png);
+        background-size: cover;
+      }
+
+      div.tape6 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/9.png);
+        background-size: cover;
+      }
+
+      div.tape7 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/6.png);
+        background-size: cover;
+      }
+
+      div.tape8 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/9.png);
+        background-size: cover;
+      }
+
+      div.tape9 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/8.png);
+        background-size: cover;
+      }
+
+      div.tape10 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/7.png);
+        background-size: cover;
+      }
+
+      div.tape11 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/9.png);
+        background-size: cover;
+      }
+
+      div.tape12 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/8.png);
+        background-size: cover;
+      }
+
+      div.tape13 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/7.png);
+        background-size: cover;
+      }
+
+      div.tape14 {
+        position: absolute;
+        top: -30px;
+        left: 500px;
+
+        width: 218px;
+        height: 70px;
+
+        transform: rotate(30deg);
+
+        opacity: 50;
+        background-image: url(images/6.png);
+        background-size: cover;
+      }
+
+      .black {
+        position: absolute;
+        bottom: 100px;
+        /* top: 100px; */
+        left: 100px;
+
+        width: 100px;
+        height: 100px;
+
+        background: red;
+      }
+
+      section {
+        position: relative;
+      }
+
+      .box_block li {
+        text-align: center;
+
+        color: white;
+      }
+
+      blockquote {
+      	margin: 30px auto 15px;
+      	margin-bottom: 30px;
+      	padding-top: 5.1px;
+      	padding-right: 1px;
+      	padding-left: 20px;
+
+      	color: black;
+      	border-left: solid;
+
+      	font-family: 'Pangolin', cursive;
+      	font-size: 21px;
+      	font-style: italic;
+      	line-height: 29px;
+      }
+
+      blockquote::before {
+        content: '\201c';
+
+        font-size: 35px;
+      }
+
+      blockquote::after {
+        content: '\201d';
+
+        font-size: 35px;
+      }
+
+      img {
+      	display: block;
+
+      	width: 480px;
+        height: 314px;
+      	margin: 80px auto;
+        padding: 20px; /* Поля вокруг текста */
+
+        color: white; /* Цвет текста */
+        background:white; /* Цвет фона под заголовком */
+      }
+
+      ul {
+        padding: 10px;
+
+        text-align: center;
+
+        color: white; /* Цвет текста */
+      }
+
+      ul li {
+      	position: relative;
+
+        padding: 5px; /* Поля вокруг текста */
+
+        text-align: center;
+
+        color: white; /* Цвет текста */
+	      color: white;
+        background:#9400D3	; /* Цвет фона под заголовком */
+        background: rgba(0, 0, 30, 0.50); /* Цвет фона */
+
+      	font-family: 'Pangolin', cursive;
+      	font-size: 23px;
+      	line-height: 29px;
+      }
+
+      ul li::before {
+      	position: absolute;
+      	top: 0;
+      	left: -15px;
+
+      	content:"\2022";
+        text-align: center;
+
+      	color: white;
+
+      	font-size: 29px;
+      	line-height: 29px;
+      }
+
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+
+      nav ul li ul {
+      	color: white;
+      }
+
+      .html {
+        position: absolute;
+        top: -40px;
+        right: -40px;
+
+        width: 350px;
+        height: 250px;
+
+        opacity: 0.5;
+        background-image: url(images/html.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      img {
+      	display: block;
+
+      	width: 485px;
+        height: 314px;
+      	margin: 80px auto;
+      }
+
+      section h2,
+      section p {
+        position: relative;
+        z-index: 2;
+      }
